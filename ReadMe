@@ -1,0 +1,54 @@
+Bien sûr, voici le README en français :
+
+---
+
+# Scraping Stack Overflow avec Puppeteer et Resend
+
+Ce projet illustre comment extraire des données de Stack Overflow en utilisant Puppeteer et envoyer les résultats par e-mail en utilisant Resend.
+
+## Installation
+
+1. Clonez le dépôt sur votre machine locale :
+
+   ```
+   git clone https://github.com/votre-utilisateur/votre-repo.git
+   ```
+
+2. Accédez au répertoire du projet :
+
+   ```
+   cd nom-du-projet
+   ```
+
+3. Installez les dépendances :
+
+   ```
+   npm install
+   ```
+
+## Configuration
+
+Avant d'exécuter le script, assurez-vous de configurer Resend avec vos identifiants SMTP. Vous pouvez trouver votre clé API SMTP dans les paramètres de votre compte Resend.
+
+1. Ouvrez le fichier `scraping.js` dans un éditeur de texte.
+
+2. Remplacez `'ajoute ta clé resend ici'` par votre clé API SMTP fournie par Resend.
+
+3. Enregistrez le fichier.
+
+## Utilisation
+
+1. Ouvrez un terminal ou une invite de commande.
+
+2. Accédez au répertoire du projet si ce n'est pas déjà fait.
+
+3. Exécutez le script :
+
+   ```
+   node scraping.js
+   ```
+
+4. Suivez les invites dans le terminal pour saisir votre requête de recherche et les tags.
+
+5. Attendez que le script scrape Stack Overflow et envoie les résultats par e-mail.
+
