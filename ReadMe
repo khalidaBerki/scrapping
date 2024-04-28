@@ -1,7 +1,3 @@
-Bien sûr, voici le README en français :
-
----
-
 # Scraping Stack Overflow avec Puppeteer et Resend
 
 Ce projet illustre comment extraire des données de Stack Overflow en utilisant Puppeteer et envoyer les résultats par e-mail en utilisant Resend.
